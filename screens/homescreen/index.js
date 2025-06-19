@@ -18,7 +18,7 @@ export default function Comanda() {
       <View style={style.box_button}>
         <TouchableOpacity
           style={style.button}
-          onPress={() => navigation.navigate('Home')} // Certifique-se de que "home" é o nome da tela no Stack.Navigator
+          onPress={() => navigation.navigate('command')}
         >
           <Text style={style.text_button}>Acessar pedidos</Text>
         </TouchableOpacity>
